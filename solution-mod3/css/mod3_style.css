@@ -1,0 +1,73 @@
+<!-- css file for assignment module 3 	-->
+<!-- filename: mod3_style.css	  		-->
+<!-- last update: 2023.05.24     		-->
+
+<style>
+
+body {
+	font-size: 16px;
+	color: #FFFFFF;
+	background-color: #000000;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav .container-fluid {
+	font-weight: bold;;
+	background-color: #D9D9D6;
+}
+
+#header-nav .container-fluid .navbar-header .navbar-brand{
+	font-weight: bold;
+	font-size: 36px;
+	white-space: nowrap;
+	color: #000000;
+}
+
+#nav-list{
+	background-color: #FFFFFF;
+	color: #000000;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h1,h3 {		
+	font-weight: bold;
+}
+
+p {
+	margin: 5px;
+	padding: 2px;
+}
+section{
+	background-color: #D9D9D6;
+	min-height: 700px;
+}
+
+section .backTop {
+	font-weight: bold;
+	font: small-caps;
+	margin: 5px;
+	padding: 5px;
+}
+
+#nav-list > li > a:hover {
+  background: #C7C7C7;
+}
+
+#chicken {
+	/*background-color: #FFC2C4;*/
+	color: #000000;
+}
+#beef {
+	/*background-color: #FF0000;
+	color: #FFFFFF;*/
+	color: #000000;
+}
+#sushi {
+	/*background-color: #FFC275;*/
+	color: #000000;
+}
+
+
+</style>
